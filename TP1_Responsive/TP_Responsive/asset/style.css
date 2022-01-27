@@ -1,0 +1,77 @@
+body
+{
+    
+    background-image: url("../asset/image/image_fond.jpg");
+}
+
+header
+{
+    display: none;
+    border: 2px solid;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-family: "Honey florist";
+    font-size: 40px;
+}
+
+
+.texte
+
+{
+    width: 90%;
+    height: 90%;
+    border: 2px solid black;
+    text-align: justify;
+    padding: 5px;
+    margin-top: 20px;
+   
+ 
+}
+
+
+footer
+{
+    display: none;
+    border: 2px solid ;
+    width: 92%;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 800px)
+{
+    header
+    {
+        display: block;
+    }
+
+}
+
+@media print
+{
+    footer
+    {
+       display: block;
+       text-align: center;
+    }
+}
+
+@media screen and (min-width: 640px)
+{
+    .container
+    {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+
+    
+
+}
+
+@font-face {
+    font-family: "Honey florist";
+    src: url("../asset/police/Honey\ Florist.otf");
+}
